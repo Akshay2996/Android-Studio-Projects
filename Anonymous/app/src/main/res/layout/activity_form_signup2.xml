@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@android:color/holo_purple">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_marginBottom="20dp"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/textview1"
+        android:textColor="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview1"
+        android:layout_marginBottom="20dp"
+        android:text="Email:"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/ed1"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/textview2"
+        android:textColor="@android:color/darker_gray"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_below="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="@string/male"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="@string/female"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_below="@id/rg"/>
+
+    <TextView
+        android:id="@+id/occupation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Occupation:"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_below="@id/button"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit"
+        android:layout_below="@id/occupation"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Anonymous 2.0</string>
+    <string name="Anonymous">ANONYMOUS</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="Continue">Continue</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="begin">GOT IT</string>
+
+    <string name="slide_1_title">ANONYMOUS</string>
+    <string name="slide_1_desc">A Chatroom meant for your privacy</string>
+
+    <string name="slide_2_title">Secure</string>
+    <string name="slide_2_desc">Stay secure and hidden!! No one knows your identity</string>
+
+    <string name="slide_3_title">Talk Nearby</string>
+    <string name="slide_3_desc">Talk to anybody near you using this app</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+
+</resources>

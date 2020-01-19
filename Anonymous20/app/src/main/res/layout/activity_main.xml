@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f45456"
+        tools:context="com.example.android.anonymous20.MainActivity">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:hint="@string/login_hint"
+            android:paddingLeft="8dp"
+            android:textColor="#5EB1C0"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/ogin"
+            android:layout_alignLeft="@+id/email"
+            android:layout_alignStart="@+id/email"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:hint="@string/pass_hint"
+            android:inputType="textPassword"
+            android:paddingLeft="8dp"
+            android:textColor="#5EB1C0"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/ogin"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_alignStart="@+id/password"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/pt_sans"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/cieapp_text" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/googleSignin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="21dp"
+            android:onClick="forgotpass">
+
+            <TextView
+                android:id="@+id/forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/googleSignin"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="14dp"
+                android:fontFamily="@font/pt_sans"
+                android:padding="10sp"
+                android:text="@string/problem"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/ClickHere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/forget"
+                android:layout_alignBottom="@+id/forget"
+                android:layout_toEndOf="@+id/forget"
+                android:layout_toRightOf="@+id/forget"
+                android:fontFamily="@font/pt_sans"
+                android:padding="10sp"
+                android:text="@string/Click_here"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Login"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:text="@string/google_sign_in" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/pt_sans"
+            android:text="@string/Cllick_Here"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>

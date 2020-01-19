@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Unanimous</string>
+    <string name="Anonymous">UNANIMOUS</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="Continue">Continue</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="begin">GOT IT</string>
+    <string name="start">Start</string>
+    <string name="slide_1_title">Unanimous</string>
+    <string name="slide_1_desc">A Chatroom meant for EveryBody</string>
+
+    <string name="slide_2_title">Talk</string>
+    <string name="slide_2_desc">Talk in RealTime</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="no_users_found">No users found!</string>
+    <string name="register">Register</string>
+    <string name="enter_username">enter username</string>
+    <string name="enter_password">enter password</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="write_a_message">Write a message...</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_register">Click here to register</string>
+
+</resources>

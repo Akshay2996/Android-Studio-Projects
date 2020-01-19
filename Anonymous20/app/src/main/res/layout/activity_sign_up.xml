@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context="com.example.android.anonymous20.SignUp">
+
+        <TextView
+            android:id="@+id/Login"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_toLeftOf="@+id/imageView4"
+            android:layout_toStartOf="@+id/imageView4"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:gravity="center"
+            android:text="@string/signup1"
+            android:textColor="#5EB1C0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/progressBar"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/cieapp_text" />
+
+
+        <!--  <EditText
+              android:id="@+id/name"
+              android:layout_width="320dp"
+              android:layout_height="40dp"
+              android:layout_alignLeft="@+id/new_username"
+              android:layout_alignStart="@+id/new_username"
+              android:layout_below="@+id/Login"
+              android:layout_marginTop="13dp"
+              android:background="@drawable/rounded_edittext"
+              android:fontFamily="@font/pt_sans"
+              android:hint="@string/new_name"
+              android:paddingLeft="8dp"
+              android:textColor="#5EB1C0"
+              android:textStyle="bold" /> -->
+
+        <EditText
+            android:id="@+id/textemail"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+
+            android:layout_alignLeft="@+id/new_password"
+            android:layout_alignStart="@+id/new_password"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:hint="@string/new_email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="8dp"
+            android:textColor="#5EB1C0"
+            android:textStyle="bold" />
+
+        <!-- <EditText
+             android:id="@+id/new_username"
+             android:layout_width="320dp"
+             android:layout_height="40dp"
+             android:layout_below="@+id/textemail"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="13dp"
+             android:background="@drawable/rounded_edittext"
+             android:fontFamily="@font/pt_sans"
+             android:hint="@string/new_username"
+             android:paddingLeft="8dp"
+             android:textColor="#5EB1C0"
+             android:textStyle="bold" /> -->
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textemail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:hint="@string/pass_hint"
+            android:inputType="textPassword"
+            android:paddingLeft="8dp"
+            android:textColor="#5EB1C0"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/new_password"
+            android:layout_alignStart="@+id/new_password"
+            android:layout_below="@+id/new_password"
+            android:layout_marginTop="23dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/pt_sans"
+            android:text="@string/signup"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/otherOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/googleSignin"
+            android:layout_alignLeft="@+id/signup"
+            android:layout_alignStart="@+id/signup"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/pt_sans"
+            android:gravity="center"
+            android:text="@string/others"
+            android:textColor="#5EB1C0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/otherOptions"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/otherOptions"
+            android:layout_marginBottom="20dp"
+            android:text="@string/google_sign_in" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>

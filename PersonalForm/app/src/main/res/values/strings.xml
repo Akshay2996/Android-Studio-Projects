@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Personal Form</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+</resources>

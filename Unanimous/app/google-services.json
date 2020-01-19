@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665873152899",
+    "firebase_url": "https://unanimous-ba767.firebaseio.com",
+    "project_id": "unanimous-ba767",
+    "storage_bucket": "unanimous-ba767.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665873152899:android:d7941821fe1fe599",
+        "android_client_info": {
+          "package_name": "com.example.android.unanimous"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665873152899-g63c1bfjhfchmc31522o976sthq06cr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.unanimous",
+            "certificate_hash": "4de11f4cc3587f3b77d11e71d411c14fc05b839b"
+          }
+        },
+        {
+          "client_id": "665873152899-9fhfm3eo0ihv2ik2usfc4frvta8g2np0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQfqeGX_ZTMhpRqciBf7n5tIo2rrAbZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665873152899-9fhfm3eo0ihv2ik2usfc4frvta8g2np0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
